@@ -1,0 +1,226 @@
+
+
+/* ------HERO SECTION------ */
+.hero-section {
+    background-image: url("IMAGES/bhargav1.jpeg"), linear-gradient(to right, rgba(0, 0, 0, 0.36), rgba(0, 0, 0, 0.36));
+    background-size: cover;
+    height: 80vh;
+    background-blend-mode: overlay;
+}
+
+
+.subheading {
+    color: #fff;
+    font-family: "Montserrat";
+    font-size: 16px;
+    font-weight: 500;
+}
+
+.color-subheading {
+    color: blue;
+}
+
+.hero-heading {
+    color: #fff;
+    font-size: 45px;
+    font-family: "Bitter", serif;
+    font-weight: 800;
+
+}
+
+.hero-description {
+    color: #fff;
+}
+
+/* ------INTRO SECTINO------ */
+.intro-heading {
+    color: #232323;
+    font-family: "Bitter", serif;
+    font-size: 40px;
+    font-weight: 800;
+}
+
+.intro-description {
+    color: #6c757d;
+}
+
+.intro-card-img {
+width: 100%;}
+
+.card-heading {
+    color: #232323;
+    font-family: "Bitter", serif;
+    font-size: 20px;
+    font-weight: 800;
+}
+.card-description {
+    color: #6c757d;
+}
+
+/* ------NUMBER SECTION------ */
+.numbers-section {
+    background-color: #05032c;
+}
+
+.number {
+    font-size: 80px;
+    color: #f89d35;
+}
+
+.numbers-heading {
+    color: #ecfbf8;
+    font-family: "Bitter", serif;
+    font-size: 45px;
+    font-weight: 800;
+}
+
+.number-description {
+    color: #b9bfc4;
+}
+
+/* ------GALLERY SECTION------ */
+.gallery-img {
+    width: 100%;
+}
+
+.gallery-subheading {
+    font-size: 16px;
+}
+.gallery-heading {
+    color: #232323;
+    font-family: "Bitter", serif;
+    font-size: 28px;
+    font-weight: 800;
+}
+
+/* ------RECENT CAUSES SECTION------ */
+span {
+    font-weight: bold;
+}
+
+.causes-card {
+    transition: all 0.5s;
+}
+
+.causes-card:hover {
+    box-shadow: 0 5px 6px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24)}
+
+.causes-icon {
+    color: blue;
+    font-weight: bold;
+}
+
+.causes-img {
+    width: 100%;
+}
+
+.causes-heading {
+    font-family: "Bitter", serif;
+    font-weight: bold;
+}
+
+/* ------HELP SECTION------ */
+.help-section {
+    background-image: url("https://demo.themefisher.com/wishfund/images/bg/bg-3.jpg"), linear-gradient(to right, rgba(0, 0, 0, 0.555), rgba(0, 0, 0, 0.555));
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    background-blend-mode: overlay;
+}
+
+.help-heading {
+    color: #ecfbf8;
+    font-family: "Bitter", serif;
+    font-size: 45px;
+    font-weight: 800;
+}
+
+.help-icon {
+    color: #f89d35 !important;
+    
+    width: 50px;
+    height: 50px;
+}
+
+/* ------NEWS SPAN------ */
+.news-card {
+    transition: all 0.5s;
+}
+
+.news-span {
+    color: blue;
+}
+
+.news-card-heading {
+    color: #232323;
+    font-family: "Bitter", serif;
+    font-size: 20px;
+    font-weight: 800;
+}
+
+.news-card-img {
+    width: 100%;
+}
+
+.news-card-subheading {
+    font-size: 14px;
+    font-weight: bold;
+    color: blue;
+}
+
+.news-card-heading:hover {
+    color: blue;
+}
+.news-card:hover {
+    box-shadow: 0 0.5rem 1rem rgb(0 0 0 / 15%) 
+}
+
+/* ------VOLUNTEER SECTION------ */
+.volunteer-section {
+    background-color: #05032c;
+}
+
+.volunteer-image {
+    width: 100%;
+}
+
+.volunteer-description {
+    color: #9daeaa;
+}
+
+.become-volunteer {
+    color: #f89d35;
+    font-family: "Bitter", serif;
+    font-size: 45px;
+    font-weight: 800;
+}
+
+ul {
+    list-style-type: none;
+}
+
+.footer-gallery {
+    width: 50%;
+}
+
+.footer-img {
+    width: 100%;
+}
+
+
+@media (min-width: 600px) {
+    .hero-section {
+        background-image: url("IMAGES/hero\ img\ large.jpg"), linear-gradient(to right, rgba(0, 0, 0, 0.36), rgba(0, 0, 0, 0.36));
+        
+        background-size: cover;
+        height: 100vh;
+
+    }
+
+    .hero-heading {
+        color: #fff;
+        font-size: 70px;
+        font-family: "Bitter", serif;
+        font-weight: 900;
+    }
+  }
