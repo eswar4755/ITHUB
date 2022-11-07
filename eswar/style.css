@@ -304,12 +304,13 @@ ul {
 } */
 
 .about-card-img {
-    width: 100%;
-    margin-right: 10px;
+    width: 140%;
+    
+    margin-right: 20px;
 }
 
 .about-card-text {
-    margin-left: 10px;
+    margin-left: 30px;
 }
 
 .card-about-heading {
@@ -320,9 +321,37 @@ ul {
 span {
     color: red;
 }
+
+.csit-department-glance-img {
+    width: 80%;
+}
+
+.about-department-heading {
+    color: red;
+}
+
+
+.footer-column-heading {
+    color: #ecfbf8;
+}
+
+.footer-list {
+    padding: 0;
+    text-decoration: none;
+    list-style-type: none;
+}
+
+.footer-list-link:link {
+    text-decoration: none;
+}
+
+.footer-link:link {
+    text-decoration: none;
+}
+
 @media (min-width: 600px) {
     .hero-section {
-        background-image: url("IMAGES/IT\ HUB\ DESIGN\ -\ 2.png"), linear-gradient(to right, rgba(0, 0, 0, 0.081), rgba(0, 0, 0, 0.125));
+        background-image: url("IMAGES\ COMPRESSED/HERO/it hub hero.webp"), linear-gradient(to right, rgba(0, 0, 0, 0.081), rgba(0, 0, 0, 0.125));
         width: 100%;
         background-size: cover;
         height: 100vh;
