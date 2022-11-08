@@ -1,0 +1,367 @@
+
+
+/* ------HERO SECTION------ */
+.hero-section {
+    background-image: url("IMAGES/bhargav1.jpeg"), linear-gradient(to right, rgba(0, 0, 0, 0.36), rgba(0, 0, 0, 0.36));
+    background-size: cover;
+    height: 80vh;
+    background-blend-mode: overlay;
+    width: 100%;
+}
+
+
+.subheading {
+    color: rgb(0, 0, 0);
+    font-family: "Montserrat";
+    font-size: 16px;
+    font-weight: 500;
+}
+
+.color-subheading {
+    color: blue;
+}
+
+.hero-heading {
+    color: black;
+    font-size: 45px;
+    font-family: "Bitter", serif;
+    font-weight: 800;
+
+}
+
+.hero-description {
+    color: #fff;
+}
+
+/* ------INTRO SECTINO------ */
+.intro-heading {
+    color: #232323;
+    font-family: "Bitter", serif;
+    font-size: 40px;
+    font-weight: 800;
+}
+
+.intro-description {
+    color: #6c757d;
+}
+
+.intro-card-img {
+width: 100%;}
+
+.card-heading {
+    color: #232323;
+    font-family: "Bitter", serif;
+    font-size: 20px;
+    font-weight: 800;
+}
+.card-description {
+    color: #6c757d;
+}
+
+/* ------NUMBER SECTION------ */
+.numbers-section {
+    background-color: #05032c;
+}
+
+.number {
+    font-size: 80px;
+    color: #f89d35;
+}
+
+.numbers-heading {
+    color: #ecfbf8;
+    font-family: "Bitter", serif;
+    font-size: 45px;
+    font-weight: 800;
+}
+
+.number-description {
+    color: #b9bfc4;
+}
+
+/* ------GALLERY SECTION------ */
+.gallery-img {
+    width: 100%;
+}
+
+.gallery-subheading {
+    font-size: 16px;
+}
+.gallery-heading {
+    color: #232323;
+    font-family: "Bitter", serif;
+    font-size: 28px;
+    font-weight: 800;
+}
+
+.gallery-video {
+    /* width: 100%; */
+    height: 800px;
+}
+
+/* ------RECENT CAUSES SECTION------ */
+span {
+    font-weight: bold;
+}
+
+.causes-card {
+    background-color: yellow;
+    transition: all 0.5s;
+    box-shadow: 5px 5px 10px 10px rgba(89, 86, 86, 0.292);
+    
+}
+
+.causes-card:hover {
+    box-shadow: 0 5px 6px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24)}
+
+.causes-icon {
+    color: blue;
+    font-weight: bold;
+}
+
+.causes-img {
+    width: 100%;
+}
+
+.causes-heading {
+    font-family: "Bitter", serif;
+    font-weight: bold;
+    color: black;
+}
+
+.causes-goal {
+    color: rgb(0, 0, 0);
+}
+
+.causes-description {
+    color: rgb(0, 0, 0);
+}
+.event-slider {
+    height: 80%;
+}
+
+.event-heading {
+    font-weight: bold;
+    color: yellow;
+    background-color: black;
+}
+
+.event-description {
+    font-weight: bold;
+    background-color: black;
+}
+
+.events-img {
+    background-color: #05032c;
+    width: 100%;
+}
+
+.img-box {
+   background-color: #05032c;
+}
+
+.scanner-img {
+    width: 100%;
+}
+/* ------HELP SECTION------ */
+.help-section {
+    background-image: url("IMAGES/event-1\ -\ Edited.png"), linear-gradient(to right, rgba(0, 0, 0, 0.555), rgba(0, 0, 0, 0.555));
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    background-blend-mode: overlay;
+}
+
+.help-heading {
+    color: #ecfbf8;
+    font-family: "Bitter", serif;
+    font-size: 45px;
+    font-weight: 800;
+}
+
+.help-icon {
+    color: #f89d35 !important;
+    
+    width: 50px;
+    height: 50px;
+}
+
+/* ------NEWS SPAN------ */
+.news-card {
+    transition: all 0.5s;
+}
+
+.news-span {
+    color: blue;
+}
+.blog-link:link {
+    display: inline-block;
+    color: #232323;
+    font-family: "Bitter", serif;
+    font-size: 22px;
+    font-weight: 800;
+    text-decoration: none;
+}
+
+.blog-link:visited {
+    color:#232323
+}
+
+.blog-link:hover, .blog-link:active {
+    color: blue;
+}
+
+
+.news-card-heading {
+    color: #232323;
+    font-family: "Bitter", serif;
+    font-size: 20px;
+    font-weight: 800;
+}
+
+.news-card-img {
+    width: 100%;
+}
+
+.news-card-subheading {
+    font-size: 14px;
+    font-weight: bold;
+    color: blue;
+}
+
+.news-card-heading:hover {
+    color: blue;
+}
+.news-card:hover {
+    box-shadow: 0 0.5rem 1rem rgb(0 0 0 / 15%) 
+}
+
+/* ------VOLUNTEER SECTION------ */
+.volunteer-section {
+    background-color: #05032c;
+}
+
+.volunteer-image {
+    width: 100%;
+}
+
+.volunteer-description {
+    color: #9daeaa;
+}
+
+.become-volunteer {
+    color: #f89d35;
+    font-family: "Bitter", serif;
+    font-size: 45px;
+    font-weight: 800;
+}
+
+ul {
+    list-style-type: none;
+}
+
+.footer-gallery {
+    width: 50%;
+}
+
+/* ---------MATERIAL PAGE---------- */
+/* ---------MATERIALS SECTION------ */
+
+.accordion-heading {
+    font-size: 32px;
+}
+
+.subject-list-item-box {
+    background-color: #f2f7f5;
+    border-radius: 3px;
+    display: flex;
+    align-items: center;
+}
+
+.subject-list-item:link {
+    display: inline-block;
+    color: blue;
+    text-decoration: none !important;
+    margin-left: 5px;
+}
+.material-button {
+    float: right;
+}
+
+.material-link:link {
+    display: inline-block;
+    color: #ffffff;
+    text-decoration: none;
+}
+
+.material-link:visited, .material-link:hover {
+    color: #fff;
+}
+
+/*------ABOUT US------ */
+/* .about-card-img-box {
+    width: 30%;
+} */
+
+.about-card-img {
+    width: 100%;
+    
+    margin-right: 20px;
+}
+
+.about-card-text {
+    margin-left: 30px;
+}
+
+.card-about-heading {
+    font-size: 62px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+span {
+    color: red;
+}
+
+.csit-department-glance-img {
+    width: 80%;
+}
+
+.about-department-heading {
+    color: red;
+}
+
+
+.footer-column-heading {
+    color: #ecfbf8;
+}
+
+.footer-list {
+    padding: 0;
+    text-decoration: none;
+    list-style-type: none;
+}
+
+.footer-list-link:link {
+    text-decoration: none;
+}
+
+.footer-link:link {
+    text-decoration: none;
+}
+
+@media (min-width: 600px) {
+    .hero-section {
+        background-image: url("IMAGES\ COMPRESSED/HERO/it hub hero.webp"), linear-gradient(to right, rgba(0, 0, 0, 0.081), rgba(0, 0, 0, 0.125));
+        width: 100%;
+        background-size: cover;
+        height: 100vh;
+
+    }
+
+    .hero-heading {
+        color: black;
+        font-size: 70px;
+        font-family: "Bitter", serif;
+        font-weight: 900;
+    }
+  }
