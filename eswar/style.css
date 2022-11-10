@@ -330,6 +330,15 @@ span {
     color: red;
 }
 
+.contact-heading {
+    font-family: "Bitter"
+}
+
+.contact-subheading {
+    font-size: 16px;
+    font-weight: bold;
+}
+
 
 .footer-column-heading {
     color: #ecfbf8;
@@ -349,6 +358,20 @@ span {
     text-decoration: none;
 }
 
+.map-container{
+    overflow:hidden;
+    padding-bottom:56.25%;
+    position:relative;
+    height:0;
+  }
+  .map-container iframe{
+    left:0;
+    top:0;
+    height:100%;
+    width:100%;
+    position:absolute;
+  }
+
 @media (min-width: 600px) {
     .hero-section {
         background-image: url("IMAGES\ COMPRESSED/HERO/it hub hero.webp"), linear-gradient(to right, rgba(0, 0, 0, 0.081), rgba(0, 0, 0, 0.125));
@@ -363,5 +386,9 @@ span {
         font-size: 70px;
         font-family: "Bitter", serif;
         font-weight: 900;
+    }
+
+    .about-card-img {
+        width: 140%;
     }
   }
