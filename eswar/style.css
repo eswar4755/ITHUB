@@ -2,7 +2,7 @@
 
 /* ------HERO SECTION------ */
 .hero-section {
-    background-image: url("IMAGES/bhargav1.jpeg"), linear-gradient(to right, rgba(0, 0, 0, 0.36), rgba(0, 0, 0, 0.36));
+    background-image: url("IMAGES\ COMPRESSED/HERO/mobile hero.webp"), linear-gradient(to right, rgba(0, 0, 0, 0.36), rgba(0, 0, 0, 0.36));
     background-size: cover;
     height: 80vh;
     background-blend-mode: overlay;
@@ -306,15 +306,13 @@ ul {
 .about-card-img {
     width: 100%;
     
-    margin-right: 20px;
+    /* margin-right: 20px; */
 }
 
-.about-card-text {
-    margin-left: 30px;
-}
+
 
 .card-about-heading {
-    font-size: 62px;
+    font-size: 52px;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 
